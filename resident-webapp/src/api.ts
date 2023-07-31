@@ -1,13 +1,13 @@
-import axios from 'axios'
-import oauth from 'axios-oauth-client'
+import axios from "axios";
+import oauth from "axios-oauth-client";
 
-let accessToken: string = '';
+let accessToken: string = "";
 
 export function setAccessToken(token: string) {
-    accessToken = token;
+  accessToken = token;
 }
 
 export const API = axios.create({
-    baseURL: window.config.baseURL
-   
+  baseURL:
+    "https://2c6c3c6e-fa65-4e8d-8943-215214887ec8-dev.e1-us-east-azure.choreoapis.dev/bpsa/hansivisitapi/visit-420/1.0.0",
 });
