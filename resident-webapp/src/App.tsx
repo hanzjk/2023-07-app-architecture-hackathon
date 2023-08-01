@@ -18,7 +18,7 @@ const authConfig = {
         "openid",
         "profile",
         "houseno",
-        "urn:architecturemindmeld:visitservicevisit420:resident"
+        "urn:choreoplayground:hansivisitapivisit420:resident"
     ],
     "signInRedirectURL": "https://" + window.location.host,
     "signOutRedirectURL": "https://" + window.location.host
