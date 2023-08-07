@@ -59,7 +59,7 @@ service /visit on httpListener {
                 visitData.visitDate, visitData.isApproved, visitData.comment);
 
         if visits is error {
-            string msg = "Failed to retrieve scheduled visits.";
+            string msg = "Failed to retrieve scheduled visits";
             log:printError(msg, 'error = visits);
             return <InternalServerErrorString>{body: msg};
         } else {
